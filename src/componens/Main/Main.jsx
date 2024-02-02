@@ -6,18 +6,19 @@ function Main() {
 
   console.log(data)
 
-  const students = data.forEach((item)=>{
-    console.log(item)
-  })
+  const students = data.map((card) => (
+    <Card
+      card={card}
+    />
+  ))
+
+  console.log(students)
 
   return (
     <main className="main">
       <section className="cards">
         <ul className="cards__list">
-          <Card />
-          <Card />
-          <Card />
-
+          {students}
         </ul>
       </section>
 
