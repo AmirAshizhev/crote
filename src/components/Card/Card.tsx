@@ -1,8 +1,21 @@
 import './Card.scss';
 
-function Card({card}) {
+interface ICardProps {
+  lastName: string;
+  name: string;
+  classGroup: string;
+  year: number;
+  imgs: string[];
+  about: string;
+  position: string;
+}
 
-  const {name, lastName, year, classGroup} = card
+interface ICard{
+  card: ICardProps
+}
+
+function Card({card}:ICard) {
+  const {lastName, name, year, classGroup } = card
 
   return (
   <li className="card">

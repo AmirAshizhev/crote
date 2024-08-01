@@ -1,12 +1,12 @@
 import './Main.scss'
-import data from '../../data/kp-data.json'
+import {dataArr} from '../../data/kp-data'
 import Card from '../Card/Card'
 
 function Main() {
 
-  console.log(data)
+  console.log(dataArr)
 
-  const students = data.map((card) => (
+  const students = dataArr.map((card) => (
     <Card
       card={card}
     />

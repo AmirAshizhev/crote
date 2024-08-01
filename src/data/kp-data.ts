@@ -1,3 +1,5 @@
+ export const dataArr =
+
 [
   {
     "lastName": "Аянакоджи",
@@ -37,5 +39,15 @@
     "imgs": ["img1", "img2"],
     "about": "обо всем",
     "position": "lead of class"
+  }
+  ,
+  {
+    "lastName": "Рюске",
+    "name": "Коэнджи",
+    "classGroup": "B",
+    "year": 2,
+    "imgs": ["img1", "img2"],
+    "about": "обо всем",
+    "position": "regular student"
   }
 ]
