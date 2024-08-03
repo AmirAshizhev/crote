@@ -15,12 +15,12 @@ interface ICard{
 }
 
 function Card({card}:ICard) {
-  const {lastName, name, year, classGroup } = card
+  const {lastName, name, year, classGroup, imgs } = card
 
   return (
   <li className="card">
     <div className='card__avatar'>
-      <img src='' alt="изображение персонажа" />
+    <img src={`${imgs[0]}`} alt="изображение персонажа" />
     </div>
     <div className='card__info'>
       <h3>{lastName} {name}</h3>

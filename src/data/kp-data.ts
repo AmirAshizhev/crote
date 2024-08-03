@@ -16,7 +16,7 @@
     "name": "Сузуне",
     "classGroup": "B",
     "year": 2,
-    "imgs": ["img1", "img2"],
+    "imgs": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6opKGeJk7WvMKfbdupqNQ8lQQ9leFG6ictfK8bKZkTTTo2xWx", "img2"],
     "about": "о ней",
     "position": "lead of class"
   }
